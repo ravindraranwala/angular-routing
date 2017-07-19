@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CustomerComponent } from './customer/customer.component';
 import { AdminModule } from './admin/admin.module';
+import { MaterialModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { AdminModule } from './admin/admin.module';
   ],
   imports: [
     BrowserModule,
+    MaterialModule,
     AdminModule,
     AppRoutingModule
   ],
