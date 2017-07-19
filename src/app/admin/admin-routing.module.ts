@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AdminComponent } from "./admin.component";
+import { AdminComponent } from './admin.component';
 import { EmailBlastComponent } from './email-blast/email-blast.component';
 import { UsersComponent } from './users/users.component';
 
